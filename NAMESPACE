@@ -10,5 +10,9 @@ importFrom(idr,est.IDR)
 importFrom(RColorBrewer,brewer.pal)
 importFrom(genomation,ScoreMatrixBin)
 
+importFrom("grDevices", "colorRampPalette")
+importFrom("graphics", "abline", "legend", "par", "plot", "points")
+importFrom("stats", "dnorm", "pchisq", "pnorm", "qnorm")
+
 export(cexor)
 export(plotcexor)
