@@ -1,6 +1,6 @@
 Package: CexoR
-Version: 1.47.0
-Date: 2025-04-07
+Version: 1.47.1
+Date: 2025-07-22
 Type: Package
 Title: An R package to uncover high-resolution protein-DNA interactions
         in ChIP-exo replicates
@@ -19,7 +19,7 @@ Description: Strand specific peak-pair calling in ChIP-exo replicates.
         Then, irreproducible discovery rate for overlapping peak-pairs across
         biological replicates is computed.
 Depends: R (>= 4.2.0), S4Vectors, IRanges
-Imports: Rsamtools, GenomeInfoDb, GenomicRanges, rtracklayer, idr, RColorBrewer, genomation
+Imports: Rsamtools, Seqinfo, GenomicRanges, rtracklayer, idr, RColorBrewer, genomation
 Suggests: RUnit, BiocGenerics, BiocStyle, knitr, rmarkdown
 License: Artistic-2.0 | GPL-2 + file LICENSE
 biocViews: FunctionalGenomics, Sequencing, Coverage, ChIPSeq, PeakDetection
